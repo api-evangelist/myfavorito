@@ -1,7 +1,13 @@
 aid: myfavorito
-name: myfavorito
-description: myfavorito is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: MyFavorito
+description: MyFavorito is a fan-empowered sports sponsorship platform that turns fan
+  loyalty into revenue for sports clubs. Fans choose their favorite club, brands activate
+  campaigns, and clubs earn money through a digital marketplace that connects sponsors,
+  clubs, and supporters. The platform combines sponsorship, fan engagement, and CRM
+  tooling for grassroots clubs, top clubs, and brands. Backed by 500 Global and surfaced
+  in the API Evangelist network as a company profile; no public developer API surface
+  was found during enrichment (no api/developer/docs host, OpenAPI, well-known, or
+  llms.txt), so this profile captures identity and domain-security posture only.
 url: https://raw.githubusercontent.com/api-evangelist/myfavorito/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://myfavorito-public.s3.amazonaws.com/logo_images/2019/myfavorito-stadium.png
 tags:
 - Company
+- Sports
+- Sponsorship
+- Fan Engagement
+- SportsTech
+- CRM
+- Marketing
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,26 @@ maintainers:
 common:
 - type: Website
   url: https://myfavorito.com
+- type: Pricing
+  url: https://www.myfavorito.com/en/pricing/
+- type: PrivacyPolicy
+  url: https://www.myfavorito.com/en/privacy/
+- type: TermsOfService
+  url: https://www.myfavorito.com/en/agb/
+- type: Support
+  url: https://www.myfavorito.com/en/app/webclient/home/contact
+- type: SignUp
+  url: https://www.myfavorito.com/en/app/webclient?action=sponsors/signup
+- type: Login
+  url: https://www.myfavorito.com/en/app/webclient/user/login
+- type: Blog
+  url: https://www.myfavorito.com/en/latest_news/
+- type: About
+  url: https://www.myfavorito.com/en/about_us/
+- type: DomainSecurity
+  url: security/myfavorito-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
