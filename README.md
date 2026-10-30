@@ -1,4 +1,4 @@
-# myfavorito
+# MyFavorito
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-myfavorito is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+MyFavorito is a fan-empowered sports sponsorship platform that turns fan loyalty into revenue for sports clubs. Fans choose their favorite club, brands activate campaigns, and clubs earn money through a digital marketplace that connects sponsors, clubs, and supporters. The platform combines sponsorship, fan engagement, and CRM tooling for grassroots clubs, top clubs, and brands. Backed by 500 Global and surfaced in the API Evangelist network as a company profile; no public developer API surface was found during enrichment (no api/developer/docs host, OpenAPI, well-known, or llms.txt), so this profile captures identity and domain-security posture only.
 
-Backed by: 500-global — https://myfavorito.com
+**Areas:** Company · Sports · Sponsorship · Fan Engagement · SportsTech · CRM · Marketing · Software-as-a-Service
+
+## MyFavorito on APIs.io
+
+Everything profiled for MyFavorito is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/myfavorito/](https://apis.io/providers/myfavorito/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Myfavorito Domain Security](https://apis.io/security/myfavorito/myfavorito-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://myfavorito.com)
+- [Pricing](https://www.myfavorito.com/en/pricing/)
+- [Sign up](https://www.myfavorito.com/en/app/webclient?action=sponsors/signup)
+- [Support](https://www.myfavorito.com/en/app/webclient/home/contact)
+- [Blog](https://www.myfavorito.com/en/latest_news/)
+- [Terms of service](https://www.myfavorito.com/en/agb/)
+- [Privacy policy](https://www.myfavorito.com/en/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 15.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 44.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/myfavorito/](https://apis.io/providers/myfavorito/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MyFavorito: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/myfavorito/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
